@@ -298,6 +298,24 @@ dex_import {
 }
 
 dex_import {
+	name: "vendor.xiaomi.hardware.misys-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar"],
+}
+
+dex_import {
+	name: "vendor.xiaomi.hardware.misys-V2.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar"],
+}
+
+dex_import {
+	name: "vendor.xiaomi.hardware.misys.V3_0",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys.V3_0.jar"],
+}
+
+dex_import {
 	name: "audiosphere",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
